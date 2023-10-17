@@ -1,0 +1,334 @@
+
+/* Body styles for background color and general font */
+body {
+    background-color: #f5f5f5; /* Light beige background like newspaper */
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header styles */
+.header {
+    background-color: #333; /* Dark header background */
+    color: #fff; /* Header text color */
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header h6 {
+    margin: 0;
+}
+/* News section styles */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Change justify-content to flex-start */
+    padding: 20px;
+} 
+
+body {
+    font-family: 'Times New Roman', ;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400, bold;
+    font-size: 2.5rem;
+    text-transform: uppercase, bold; 
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400, bold ;
+    font-size: 1.2rem;
+    text-transform: capitalize, bold; 
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
+}
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+
+    background: #f4f4f4;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+/*Screen Sizes 500px +*/
+
+@media(min-width: 31.25rem) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 80%;
+    }
+}
+
+/*Screen Sizes 700px +*/
+
+@media(min-width: 43.75rem) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+
+.carousel-img {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* News section styles */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Change justify-content to flex-start */
+    padding: 20px;
+}
+
+/* Article styles */
+.article {
+    background-color: #fff; /* White article background */
+    border: 1px solid #ddd; /* Border around articles */
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Responsive layout for three columns */
+}
+
+/* Big article styles */
+.article.big {
+    width: 100%; /* Full width for big article */
+}
+
+/* Article content styles */
+.articlecontent {
+    margin-top: 20px;
+}
+
+/* Article content image styles */
+.articlecontent img {
+    max-width: 60%; /* Limit image width to 100% of the container */
+    height: auto; /* Maintain image aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Bottom links styles */
+.bottomlinks {
+    margin: 0 20px;
+}
+
+/* Links list styles */
+.bottomlinks h4 {
+    font-size: 1.2em;
+}
+
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottomlinks li {
+    margin: 5px 0;
+}
+
+
+/* Bottom links (sections) styles */
+.bottomlinks {
+    display: inline-block;
+    width: 30%; /* Adjust the width based on your layout */
+    padding: 0 20px;
+    text-align: left;
+    vertical-align: top;
+    margin: 10px;
+}
+
+/* Link list (ul) styles */
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Link item (li) styles */
+.bottomlinks li {
+    margin: 5px 0;
+}
+
+/* Link styles */
+.bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+/* Hover effect for links */
+.bottomlinks a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+    display: flex; /* Use flexbox to align sections */
+    justify-content: space-around; /* Distribute sections evenly */
+    flex-wrap: wrap; /* Allow sections to wrap to the next row if needed */
+}
+
+/* Bottom links (sections) styles */
+.bottomlinks {
+    flex: 1; /* Distribute available space evenly among columns */
+    padding: 0 20px;
+    text-align: left;
+    margin: 10px;
+    max-width: 30%; /* Maximum width for each column */
+    box-sizing: border-box; /* Include padding in the max width */
+}
+
+/* Link list (ul) styles */
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Link item (li) styles */
+.bottomlinks li {
+    margin: 5px 0;
+}
+
+/* Link styles */
+.bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: unset;
+    display: block;
+}
+
+/* Hover effect for links */
+.bottomlinks a:hover {
+    text-decoration: underline;
+}
+
